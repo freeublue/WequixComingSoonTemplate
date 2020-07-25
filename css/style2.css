@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap');
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+
+
+
+
+html,
+body {
+  height: 100%;
+  background-image: url("../bim.jpg");
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Josefin Slab', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  font-size:16px;
+}
+body {
+  color: black;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+} 
+
+.piccloud {
+  background-image: url('../picclouds.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* 500px / 16px = 31.25em */
+@media screen and (min-width: 31.25em;) {}
+/* 800px / 16px = 50em */
+@media screen and (min-width: 50em;) {}
+/* 1200px / 16px = 75em */
+@media screen and (min-width: 75em;) {}
